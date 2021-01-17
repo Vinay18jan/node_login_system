@@ -1,0 +1,36 @@
+{
+  "name": "node_login_system",
+  "version": "1.0.0",
+  "description": "Backend API list using node/mongo\r 1. Create user and return Jwt\r 2. Login authentication using passport.js and validate Jwt\r 3. Forgot password.\r 4. Limit the forgot password request to 3 times.\r 5. Facebook, google authentication.\r 6. OAuth authorization",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vinay18jan/node_login_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vinay18jan/node_login_system/issues"
+  },
+  "homepage": "https://github.com/Vinay18jan/node_login_system#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.12",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
